@@ -1,0 +1,19 @@
+package com.mAadhar.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.mAadhar.bean.Requests;
+import com.mAadhar.repository.RequestRepository;
+
+@Service
+public class RequestService {
+
+	@Autowired
+	RequestRepository reqrepo;
+	
+	public String storeRequest(Requests req) {
+		reqrepo.save(req);
+		return "Aadhar Application Request Submitted";
+	}
+}

@@ -1,0 +1,46 @@
+package com.mAadhar.service;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+
+public class RequestServiceTest {
+  @BeforeMethod
+  public void beforeMethod() {
+  }
+
+  @AfterMethod
+  public void afterMethod() {
+  }
+
+
+  @Test
+  public void approveRequestTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void denyRequestTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void getAllRequestsTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void storeRequestTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void updateAdharTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void viewmyAdharTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+}

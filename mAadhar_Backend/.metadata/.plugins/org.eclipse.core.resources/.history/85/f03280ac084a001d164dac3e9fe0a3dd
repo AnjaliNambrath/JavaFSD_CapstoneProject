@@ -1,0 +1,5 @@
+package com.mAadhar.repository;
+
+public interface LoginRepository {
+
+}

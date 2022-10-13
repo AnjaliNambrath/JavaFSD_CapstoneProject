@@ -1,0 +1,16 @@
+package com.mAadhar.service;
+
+import org.testng.annotations.Test;
+
+public class LoginServiceTest {
+
+  @Test
+  public void signInTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void signUpTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+}

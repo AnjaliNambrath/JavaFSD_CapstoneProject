@@ -1,0 +1,54 @@
+package com.mAadhar.testing;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterClass;
+
+public class RequestServiceTest {
+	WebDriver driver;
+  @BeforeClass
+  public void beforeClass() {
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\anjal\\eclipse-workspace\\JavaFSD_Phase5\\chromedriver.exe");
+	  ChromeOptions options = new ChromeOptions();
+	  options.addArguments("start-maximized");
+	  driver = new ChromeDriver(options);
+  }
+
+  @AfterClass
+  public void afterClass() {
+  }
+
+
+  @Test
+  public void approveRequestTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void denyRequestTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void getAllRequestsTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void storeRequestTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void updateAdharTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+
+  @Test
+  public void viewmyAdharTest() {
+    throw new RuntimeException("Test not implemented");
+  }
+}
